@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo {
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 5px 0px rgba(206, 89, 55, 0.6);
+}
+
+.card {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.card .card-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.json_color .card:nth-child(odd) {
+  border-bottom: 5px solid #ffc480;
+}
+
+.json_color .card:nth-child(even) {
+  border-bottom: 5px solid #847de7;
+}
+
+.card .card-text {
+  text-align: justify;
+}
+
+.card .card-text .text-muted {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #eb8286;
+  color: #fff !important;
+}
+
+.foot {
+  text-align: center;
+}
+
+.foot p {
+  font-size: 18px;
+  background: #cc739f;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.card img {
+  height: 100%;
+}
+
+.navigation li a {
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.navigation li:nth-child(1) a {
+  background: #7b2dd1;
+}
+
+.navigation li:nth-child(2) a {
+  background: #00d0b0;
+}
+
+.navigation li:nth-child(3) a {
+  background: #afe075;
+}
+
+.navigation li:nth-child(4) a {
+  background: #e97d89;
+}
+
+.corona .card {
+  text-align: center;
+}
+
+.corona .card-title {
+  color: #e77692;
+}
+
+.corona .card-text {
+  font-size: 25px;
+  text-align: center;
+  color: #00cf8c;
+}
+
+.title_head {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7345d8;
+  text-shadow: 1px 1px 2px rgb(223, 222, 222);
+}
+
+.title_head span {
+  color: #e77b8b;
+}
+
+.india_corona .col-md-3:nth-child(odd) .card {
+  border-bottom: 5px solid #ffc480;
+}
+
+.india_corona .col-md-3:nth-child(even) .card {
+  border-bottom: 5px solid #847de7;
+}
+
+.search_box_corona input {
+  border-radius: 10px;
+  border: 3px solid #dced61;
+  font-weight: bold;
+}
+
+.website .carousel {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.website .carousel img {
+  max-height: 470px;
+}
+
+.website .carousel-caption {
+  border-radius: 20px;
+  background: rgb(119, 42, 201, 0.7);
+}
+
+.website_wrap {
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: 40px 0;
+  box-shadow: 1px 1px 2px 2px rgb(100, 100, 100, 0.3);
+}
+
+.website_wrap .head h3 {
+  text-transform: uppercase;
+  color: #773ed6;
+}
+
+.website_wrap .head p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.website_wrap .head p span {
+  background: #e97d89;
+  border-radius: 4px;
+  padding: 0px 5px 3px 5px;
+  color: #fff;
+}
+
+.img_height_news img {
+  max-height: 250px;
+  min-height: 250px;
+}
