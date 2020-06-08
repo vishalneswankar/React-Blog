@@ -12,7 +12,7 @@ class News extends Component {
 
   componentDidMount() {
     fetch(
-      "https://newsapi.org/v2/top-headlines?country=in&apiKey=0dd3e7e11c244c4e811afbdc606d4f1c"
+      "https://gnews.io/api/v3/top-news?&token=6ab2fb742c4bdfa485c32467f029b98c"
     )
       .then((response) => response.json())
       .then((data) => {
@@ -41,7 +41,11 @@ class News extends Component {
                 <div className="card-body">
                   <h5 className="card-title">{newsAll.title}</h5>
                   <p className="card-text">{newsAll.description}</p>
-                  <a href={newsAll.url} className="btn btn-info">
+                  <a
+                    href={newsAll.url}
+                    target="_blank"
+                    className="btn btn-info"
+                  >
                     Read More
                   </a>
                   <p className="btn btn-success float-right">
