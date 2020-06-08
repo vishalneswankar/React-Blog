@@ -41,11 +41,7 @@ class News extends Component {
                 <div className="card-body">
                   <h5 className="card-title">{newsAll.title}</h5>
                   <p className="card-text">{newsAll.description}</p>
-                  <a
-                    href={newsAll.url}
-                    target="_blank"
-                    className="btn btn-info"
-                  >
+                  <a href={newsAll.url} className="btn btn-info">
                     Read More
                   </a>
                   <p className="btn btn-success float-right">
