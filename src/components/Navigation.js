@@ -12,7 +12,7 @@ class Navigation extends Component {
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/Api">
-            Coronavirus Api
+            ONDB Api
           </Link>
         </li>
         <li className="nav-item">
