@@ -42,7 +42,7 @@ class News extends Component {
                   <h5 className="card-title">{newsAll.title}</h5>
                   <p className="card-text">{newsAll.description}</p>
                   <a
-                    href={newsAll.url} rel="noreferrer"
+                    href={newsAll.url} rel="noopener noreferrer"
                     target="_blank"
                     className="btn btn-info"
                   >
