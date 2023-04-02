@@ -29,7 +29,7 @@ class News extends Component {
           News <span>API</span>
         </h2>
         <div className="row">
-          {this.state.news.map((newsAll) => (
+          {this.state.news?.map((newsAll) => (
             <div className="col-md-4 mb-3" key={newsAll.title}>
               <div className="card img_height_news">
                 <ReactImageFallback
